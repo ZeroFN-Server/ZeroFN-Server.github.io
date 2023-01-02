@@ -1,1 +1,20 @@
-
+Package: winterboard
+Version: 0.9.3918
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
+Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Provides: theme-manager
+Filename: debs/winterboard_0.9.3918_iphoneos-arm.deb
+Size: 110308
+MD5sum: 99c552b549a29921cdb6118ddcde97e1
+Section: System
+Priority: optional
+Homepage: http://www.saurik.com/id/9
+Description: theme manager, used by most themes
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://cydia.saurik.com/info/winterboard/
+Name: WinterBoard
